@@ -13,6 +13,7 @@ A First Person Shooter game mechanics in Unity
 - Weapon Inventory 
 - Drop/Grap weapons
 - Enter/exit vehicle 
+- Enemies Health
 
 
 ## References
