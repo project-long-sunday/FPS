@@ -64,11 +64,11 @@ public class WeaponInventory : MonoBehaviour
     }
 
 
-    public void GrapWepon(GameObject obj)
+    public bool GrapWepon(GameObject obj)
     {
         if (weapons.Count == numberOfWeapons)
         {
-            return;
+            return false;
         }
 
         currentWepon?.SetActive(false);
@@ -82,6 +82,7 @@ public class WeaponInventory : MonoBehaviour
         obj.GetComponent<Rigidbody>().isKinematic = true;
         magsUi.SetActive(true);
         promptUi.SetActive(true);
+        return true;
     }
 
     public void DropWepon()

@@ -14,8 +14,8 @@ public class WeaponIntactable : Interactable
 
     protected override void Interact(GameObject interactor)
     {
-        player.GrapWepon(gameObject);
-        GetComponent<WeaponShooting>().enabled = true;
+        if (player.GrapWepon(gameObject))
+            GetComponent<WeaponShooting>().enabled = true;
     }
 
 
