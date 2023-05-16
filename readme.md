@@ -1,4 +1,3 @@
-
 # FPS
 
 A First Person Shooter game mechanics in Unity 
@@ -14,7 +13,6 @@ A First Person Shooter game mechanics in Unity
 - Drop/Grap weapons
 - Enter/exit vehicle 
 - Enemies Health
-
 
 ## References
 
