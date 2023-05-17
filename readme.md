@@ -14,6 +14,14 @@ A First Person Shooter game mechanics in Unity
 - Enter/exit vehicle 
 - Enemies Health
 
+## How to play
+
+- "Q" to switch weapons
+- Left mouse click to shoot
+- Right mouse click to through gernades
+- "G" to drop weapon
+- "E" to interact 
+
 ## References
 
 itch: https://tarik775.itch.io/fps
